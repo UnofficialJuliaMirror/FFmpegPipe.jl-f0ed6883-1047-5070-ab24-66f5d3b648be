@@ -1,8 +1,7 @@
 module FFmpegPipe
 
-using Images
-using FileIO
-using ImageMagick # alternatively: QuartsImageIO
+using ImageMagick, FileIO, Images
+# # alternatively: QuartsImageIO
 
 export openvideo, readframe, writeframe
 
